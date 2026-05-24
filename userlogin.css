@@ -1,0 +1,83 @@
+:root{
+    --primary:white; 
+    --secondary: rgb(186, 182, 182);
+    --tertiary: black;    
+}
+
+    * {
+      color: var(--primary);
+      margin: 35px;
+      padding: 1px;  
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      background-image: url('space.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+      background-attachment: fixed;  
+      
+    }
+    .loginform {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: gray;
+      border: 3px solid var(--secondary);
+      width: 550px;
+      height: 550px;
+      padding: 75px;
+      margin: 50px;
+      margin-bottom: 25px;
+      border-radius: 20px;
+    }
+    input[type=email], input[type=email] {
+      background-color: transparent;
+      border-radius: 20px;
+      border: 3px solid var(--secondary);
+      width: 100%;
+      padding: 20px; 
+      color: var(--primary);
+    }
+    input[type=password], input[type=password] {
+      background-color: transparent;
+      border-radius: 20px;
+      border: 3px solid var(--secondary);
+      width: 100%;
+      padding: 20px;
+      color: var(--primary);
+      transition: border-color  .2s linear;
+    }
+    input::placeholder {
+      color: var(--secondary);
+    }
+    input[type=email]:focus, input[type=email]:hover,
+    input[type=password]:focus, input[type=password]:hover {
+      outline: none;
+      border-color: var(--primary);
+      transition: border-color  .2s linear;
+    }   
+    button {
+      width: 50%;
+      padding: 20px;
+      color: black;
+      border-radius: 30px;
+      font-size: 20px;
+      background-color: darkslategray;
+      transition: background-color .2s linear, color .2s linear;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: var(--secondary);
+      color: white;
+      transition: background-color .2s linear, color .2s linear;
+    }

@@ -1,0 +1,71 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+
+    body{
+      background-image: url(images/checkout.jpg);
+      background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+    }
+
+    .container{
+      background:#fff;
+      padding:25px 30px;
+      border-radius:12px;
+      width:100%;
+      max-width:420px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    h2{
+      text-align:center;
+      margin-bottom:20px;
+      color:#333;
+    }
+
+    .form-group{margin-bottom:15px;}
+
+    label{
+      display:block;
+      margin-bottom:6px;
+      font-weight:bold;
+      color:#444;
+    }
+
+    input, select, textarea{
+      width:100%;
+      padding:10px;
+      border:1px solid #ccc;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    input:focus, select:focus, textarea:focus{
+      border-color:#ff6b6b;
+      outline:none;
+    }
+
+    textarea{
+      resize:none;
+      height:70px;
+    }
+
+    .row{
+      display:flex;
+      gap:10px;
+    }
+
+    .row .form-group{flex:1;}
+
+    .summary{
+      background:#f8f8f8;
+      padding:12px;
+      border-radius:6px;
+      margin-bottom:15px;
+      font-size:14px;
+    }
+    
+    .btn:hover{
+        background:#e55353;
+    }

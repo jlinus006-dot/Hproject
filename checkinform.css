@@ -1,0 +1,73 @@
+
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+
+    body{
+      background-image: url(checkin.jpg);
+      background: linear-gradient(135deg,#89f7fe,#66a6ff);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+    }
+
+    .container{
+      background:#fff;
+      padding:25px 30px;
+      border-radius:12px;
+      width:100%;
+      max-width:450px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    h2{
+      text-align:center;
+      margin-bottom:20px;
+      color:#333;
+    }
+
+    .form-group{margin-bottom:15px;}
+
+    label{
+      display:block;
+      margin-bottom:6px;
+      font-weight:bold;
+      color:#444;
+    }
+
+    input, select, textarea{
+      width:100%;
+      padding:10px;
+      border:1px solid #ccc;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    input:focus, select:focus, textarea:focus{
+      border-color:#007bff;
+      outline:none;
+    }
+
+    .row{
+      display:flex;
+      gap:10px;
+    }
+
+    .row .form-group{flex:1;}
+
+    textarea{
+      resize:none;
+      height:70px;
+    }
+
+    .btn{
+      width:100%;
+      padding:12px;
+      background:#007bff;
+      border:none;
+      color:#fff;
+      font-size:16px;
+      border-radius:6px;
+    }
+    
+    .btn:hover{
+        background:#0056b3;}
